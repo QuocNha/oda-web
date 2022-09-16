@@ -4,15 +4,6 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: [
-    'airbnb',
-    'prettier',
-    'plugin:react/recommended',
-    'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
-    'prettier/react',
-  ],
   settings: {
     'import/resolver': {
       node: {
@@ -32,7 +23,6 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'react-hooks', 'unicorn', 'jest'],
   rules: {
     semi: 0,
     indent: 0,
